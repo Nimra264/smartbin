@@ -1,4 +1,3 @@
-
 # Smartbin
 **Introduction:**
 
@@ -14,8 +13,9 @@ Smart bin is an automatic dustbin. It works like when you will come in front of 
 •	Bread Board
 **Methodology:**
 
-	We are proposing a smart dustbin with IoT notification. In this system, a dustbin is working as an intelligent node. 
+We are proposing a smart dustbin with IoT notification. In this system, a dustbin is working as an intelligent node. 
 HCSR04 Ultrasonic Sensors: 
+
 The HCSR04 Ultrasonic Sensors is attached inside the dustbin to detect the trash-level. LEDs are connected correspond to this ultrasonic sensor. When HCSR04 will detect the level-1 of dustbin, corresponding LED-1 will turn on and when it will detect the level-2 of dustbin, corresponding LED-2 will turn on. The VCC (Voltage Collector) of this ultrasonic sensor is connected to the VCC of Arduino and its Trig, which is a pin connected with 12th digital pin of Arduino. It contains an Echo pin that is connected with 13th digital pin of Arduino. And its ground is connected with the ground of Arduino. 
 **PIR Sensor:**
 
@@ -26,17 +26,19 @@ LEDs are connected with ultrasonic sensor. When sensor will detect a level of du
 **Code:**
 
 •	For lid opening
+
 •	For Metal Detection
 **Software:**
 
-	Arduino IDE is used for uploading the code
+Arduino IDE is used for uploading the code
 **Servo motor**
 
-	Two servo motors are used
+Two servo motors are used
 •	One for lid opening
+
 •	Second for sorting metal from trash
 **Inductive Proximity Sensor:**
 
-	E2E-X5ME1 Inductive proximity sensor is used which is attached with servo motor to detect and sort metal.
+E2E-X5ME1 Inductive proximity sensor is used which is attached with servo motor to detect and sort metal.
 
 
