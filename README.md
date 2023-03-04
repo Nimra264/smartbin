@@ -49,6 +49,7 @@ Arduino IDE is used for uploading the code
 **Servo motor**
 
 Two servo motors are used
+
 •	One for lid opening
 
 •	Second for sorting metal from trash
