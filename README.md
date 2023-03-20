@@ -3,7 +3,7 @@
 
 Smart bin is an automatic dustbin. It works like when you will come in front of the bin it will open and close automatically with the help of servo motor. Sensor will detect the object in front of the dustbin. According to garbage level, the corresponding LED will blink. This bin has the sorting mechanism to sort metal material so it can be recycled. Purpose of smart dustbin project is to create an environment which is cleaner, safer and more hygienic. This system helps to enhanced the operational efficiency while reducing management costs, resources, and road side emissions.
 
-**Component:**
+**Component:**skdwedfwefwdxsxddwefwfdcxdscsJCOQIDJEKWQDNXSXKNAWMDAD M\X
 
 •	Arduino UNO
 
