@@ -1,7 +1,7 @@
 # Smartbin
 **Introduction:**
 
-Smart bin is an automatic dustbin. It works like when you will come in front of the bin it will open and close automatically with the help of servo motor. Sensor will detect the object in front of the dustbin. According to garbage level, the corresponding LED will blink. This bin has the sorting mechanism to sort metal material so it can recycle. Purpose of smart dustbin project is to create an environment which is cleaner, safer, more hygienic. This system helps to enhanced the operational efficiency while reducing management costs, resources, and road side emissions.
+Smart bin is an automatic dustbin. It works like when you will come in front of the bin it will open and close automatically with the help of servo motor. Sensor will detect the object in front of the dustbin. According to garbage level, the corresponding LED will blink. This bin has the sorting mechanism to sort metal material so it can be recycled. Purpose of smart dustbin project is to create an environment which is cleaner, safer and more hygienic. This system helps to enhanced the operational efficiency while reducing management costs, resources, and road side emissions.
 
 **Component:**
 
@@ -26,7 +26,7 @@ HCSR04 Ultrasonic Sensors:
 
 **The HCSR04 Ultrasonic Sensors:**
 
-is attached inside the dustbin to detect the trash-level. LEDs are connected correspond to this ultrasonic sensor. When HCSR04 will detect the level-1 of dustbin, corresponding LED-1 will turn on and when it will detect the level-2 of dustbin, corresponding LED-2 will turn on. The VCC (Voltage Collector) of this ultrasonic sensor is connected to the VCC of Arduino and its Trig, which is a pin connected with 12th digital pin of Arduino. It contains an Echo pin that is connected with 13th digital pin of Arduino. And its ground is connected with the ground of Arduino. 
+This sensor is attached inside the dustbin to detect the trash level. LEDs are connected corresponding to this ultrasonic sensor. When HCSR04 will detect the level-1 of dustbin, corresponding LED-1 will turn on and when it will detect the level-2 of dustbin, corresponding LED-2 will turn on. The VCC (Voltage Collector) of this ultrasonic sensor is connected to the VCC of Arduino and its Trig, which is a pin connected with 12th digital pin of Arduino. It contains an Echo pin that is connected with 13th digital pin of Arduino. And its ground is connected with the ground of Arduino. 
 
 **PIR Sensor:**
 
@@ -34,25 +34,27 @@ Which detects a living ting. It has a zone, when a thing enters this zone, the l
 
 **LEDs:**
 
-LEDs are connected with ultrasonic sensor. When sensor will detect a level of dustbin, its corresponding LED will be turn on. As LEDs have two wires, one is anode and other is cathode. The anode of LED-1, LED-2, LED-3 and LED-4 is connected to the 5th, 6th, 7th and 8th digital-pins of Arduino respectively. And cathode of all of these LEDs are connects together. Servo Motor: That is connected with PIR sensor. When PIR sensor will sense something, lid of dustbin will be opened. It contains three wires, one is VCC that is connected with power pin of Arduino and the ground of power pin is connected with the ground of Arduino. And its output is connected with 9th -digital pin of Arduino.
+LEDs are connected with ultrasonic sensor. When sensor will detect a level of dustbin, its corresponding LED will be turn on. As LEDs have two wires, one is anode and other is cathode. The anode of LED-1, LED-2, LED-3 and LED-4 is connected to the 5th, 6th, 7th and 8th digital-pins of Arduino respectively. And cathode of all of these LEDs are connected together. 
+
+**Servo Motor:**
+
+That is connected with PIR sensor. When PIR sensor will sense something, lid of dustbin will be opened. It contains three wires, one is VCC that is connected with power pin of Arduino and the ground of power pin is connected with the ground of Arduino. And its output is connected with 9th -digital pin of Arduino.
+
+Two servo motors are used;
+
+•	One for lid opening.
+
+•	Second for sorting metal from trash.
 
 **Code:**
 
-•	For lid opening
+•	For lid opening.
 
-•	For Metal Detection
+•	For Metal Detection.
 
 **Software:**
 
-Arduino IDE is used for uploading the code
-
-**Servo motor**
-
-Two servo motors are used
-
-•	One for lid opening
-
-•	Second for sorting metal from trash
+Arduino IDE is used for uploading the code.
 
 **Inductive Proximity Sensor:**
 
